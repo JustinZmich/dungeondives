@@ -56,8 +56,21 @@ nav > a:hover{ /* NAVIGTION animation*/
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;
-	margin: 0;
+	margin: 1em 0;
 	letter-spacing: 4px;
+}
+
+.header_2 {
+	color: black;
+	text-align: center;
+	margin: 1em 0;
+	letter-spacing: 4px;
+}
+
+div > a{
+	margin:0 auto;
+	text-decoration: none;
+	color: white;
 }
 /* About Section */
 .text_column {
@@ -203,6 +216,71 @@ footer {
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+/* Contact Us */
+.form1 {
+    padding-top: 5%;
+}
+
+.contactus {
+    width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 5px auto;
+    margin-top: 25px;
+    text-align: left;
+
+    font-family: 'davis-sans', sans-serif;
+    font-size: large;
+}
+
+input {
+    border-radius: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.textbox {
+    background-color: #e1dfe1;
+    border-style: none;
+    color: #2e2f34;
+
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: larger;
+
+    width:400px;
+}
+
+textarea {
+    border-radius: 30px;
+}
+
+::placeholder {
+    text-indent: 2%;
+    padding: 2%;
+}
+
+#submit {
+    border-style: none;
+
+    background-color: #2e2f34;
+    color: #e1dfe1;
+
+    font-size: larger;
+    font-family: 'davis-sans', sans-serif;
+
+    margin: 3%;
+
+    height: 2em;
+    width: 6em;
+}
+
+#submit:hover {
+    background-color:#000000;
+    transition: 1s ease-in-out;
 }
 
 /* Mobile */
